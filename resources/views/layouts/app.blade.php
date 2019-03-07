@@ -49,6 +49,24 @@
                                 </li>
                             @endif
                         @else
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{route('AdminSliders')}}">Slider</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{route('AdminVendors')}}">Vendors</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{route('AdminReps')}}">Our Reps</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{route('AdminAbout')}}">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{route('AdminContact')}}">Contact us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{route('AdminContactDetails')}}">Contact Details</a>
+                            </li>
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }} <span class="caret"></span>
