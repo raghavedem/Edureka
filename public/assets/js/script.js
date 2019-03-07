@@ -1,0 +1,14 @@
+		window.mobileNavWidth = "1000";
+					window.headerMainHeight = "150";
+			window.headerMenuTogglable = 1;
+			window.headerMainShrinkedHeight = "60";
+			window.headerExtraHeight = "36";
+			window.headerDisableStickyHeaderWidth = "1000";
+			window.headerDisableAnimationWidth = "1023";
+				window.ajaxURL = 'http://eurekatoyandgift.com/wp-admin/admin-ajax.php';
+	window.nameFieldError = "Please enter your Name";
+	window.emailFieldError = "Please enter your Email";
+	window.phoneFieldError = "Please enter your Phone Number";
+	window.captchaFieldError = "Please enter the equation result";
+	window.messageFieldError = "Please enter a Message";
+	window.messageFormSuccess = "Thank you! Your message was sent.";
